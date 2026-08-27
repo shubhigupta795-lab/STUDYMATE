@@ -1,0 +1,25 @@
+                    STUDYMATE
+
+                       │
+          ┌────────────┴────────────┐
+          │                         │
+       MATERIAL                  RECALL CELL
+          │                         │
+     PDF / Video              Learning dates
+          │                         │
+          ▼                         ▼
+     Concepts                  Memory mode
+          │                  ┌──────┴──────┐
+          ▼                  │             │
+   Question Engine       Short-Term    Long-Term
+          │                  │             │
+          ▼                  └──────┬──────┘
+   Coverage Tracking               │
+          │                        ▼
+          │                    Calendar
+          │
+          ▼
+   "Enough questions?"
+          │
+       YES → STOP
+       NO  → Continue
