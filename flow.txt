@@ -1,25 +1,89 @@
-                    STUDYMATE
-
-                       │
-          ┌────────────┴────────────┐
-          │                         │
-       MATERIAL                  RECALL CELL
-          │                         │
-     PDF / Video              Learning dates
-          │                         │
-          ▼                         ▼
-     Concepts                  Memory mode
-          │                  ┌──────┴──────┐
-          ▼                  │             │
-   Question Engine       Short-Term    Long-Term
-          │                  │             │
-          ▼                  └──────┬──────┘
-   Coverage Tracking               │
-          │                        ▼
-          │                    Calendar
-          │
-          ▼
-   "Enough questions?"
-          │
-       YES → STOP
+                         STUDY / RESEARCH INTELLIGENCE
+                                    │
+                                    ▼
+                           ┌─────────────────┐
+                           │   CREATE SPACE  │
+                           │      "XYZ"      │
+                           └────────┬────────┘
+                                    │
+                                    ▼
+                    ┌──────────────────────────────┐
+                    │          XYZ SPACE           │
+                    │                              │
+                    │  All knowledge related to   │
+                    │  this project / topic       │
+                    └──────────────┬───────────────┘
+                                   │
+              ┌────────────────┼────────────────┐────────────────┐
+              │                │                │                │
+              │                │                │                │ 
+              ▼                ▼                ▼                ▼
+        ┌──────────┐     ┌──────────┐     ┌──────────┐     ┌──────────┐
+        │   DOCS   │     │   PDF    │     │ YOUTUBE  │     │   WEB    │
+        │          │     │          │     │   URL    │     │   URL    │
+        └────┬─────┘     └────┬─────┘     └────┬─────┘     └────┬─────┘
+             │                │                │                │
+             ▼                ▼                ▼                ▼
+        DOC PARSER       PDF PARSER       TRANSCRIPT        WEB PARSER
+                                             EXTRACTOR
+             │                │                │                │
+             └────────────────┴────────────────┴────────────────┘
+                                      │
+                                      ▼
+                            NORMALIZED CONTENT
+                                      │
+                                      ▼
+                              XYZ KNOWLEDGE STORE
+                                    │
+                                    ▼
+                         ┌────────────────────┐
+                         │ NORMALIZED CONTENT │
+                         │                    │
+                         │ Text               │
+                         │ Sections           │
+                         │ Metadata           │
+                         │ Tables             │
+                         │ References         │
+                         │ Source             │
+                         └─────────┬──────────┘
+                                   │
+                                   ▼
+                         ┌────────────────────┐
+                         │   XYZ KNOWLEDGE    │
+                         │       STORE        │
+                         │                    │
+                         │ Docs               │
+                         │ PDFs               │
+                         │ Transcripts        │
+                         │ Web Articles       │
+                         └─────────┬──────────┘
+                                   │
+                    ┌──────────────┼──────────────┐
+                    │              │              │
+                    ▼              ▼              ▼
+                PostgreSQL     Vector DB      Knowledge
+                Metadata       Embeddings       Graph
+                    │              │              │
+                    └──────────────┼──────────────┘
+                                   │
+                                   ▼
+                           ┌───────────────┐
+                           │  AI RESEARCH  │
+                           │    ENGINE     │
+                           └───────┬───────┘
+                                   │
+                ┌──────────────────┼──────────────────┐
+                │                  │                  │
+                ▼                  ▼                  ▼
+           Ask Questions      Compare Sources     Find Gaps
+                │                  │                  │
+                ▼                  ▼                  ▼
+           "What does the     "PDF vs Blog"      "What hasn't
+            paper say?"                         been explored?"
+                │                  │                  │
+                └──────────────────┼──────────────────┘
+                                   ▼
+                              ANSWER + SOURCES
        NO  → Continue
+
+
