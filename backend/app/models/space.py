@@ -1,6 +1,7 @@
 from datetime import datetime
 
 from sqlalchemy import Column, DateTime, Integer, String, Text
+from sqlalchemy.orm import relationship
 
 from app.database.connection import Base
 
@@ -18,3 +19,5 @@ class Space(Base):
         DateTime,
         default=datetime.utcnow
     )
+
+    sources = relationship("Source", back_populates="space", cascade="all, delete-orphan")
