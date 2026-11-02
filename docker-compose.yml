@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg18
+    container_name: studymate-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-studymate}
+      POSTGRES_USER: ${POSTGRES_USER:-studymate}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-studymate}
+    ports:
+      - "5432:5432"
+    volumes:
+      - studymate_postgres_data:/var/lib/postgresql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-studymate} -d ${POSTGRES_DB:-studymate}"]
+      interval: 5s
+      timeout: 5s
+      retries: 20
+
+volumes:
+  studymate_postgres_data:
